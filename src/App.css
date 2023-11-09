@@ -1,3 +1,4 @@
+/* Product-ListProduct */
 .ListProduct {
   display: flex;
   flex-direction: column;
@@ -21,7 +22,7 @@
 
 .productList {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .productItem {
@@ -30,10 +31,8 @@
   border-radius: 4px;
   padding: 10px;
   max-width: 300px;
-} 
+}
 
-
-/*  */
 .Product {
   text-align: center;
   padding: 20px;
@@ -45,11 +44,11 @@
   height: 150px;
   width: 150px;
   margin-bottom: 10px;
-  transition: transform 0.3s; 
+  transition: transform 0.3s;
 }
 
 .productImage:hover {
-  transform: scale(1.2);  
+  transform: scale(1.2);
 }
 
 .productTitle {
@@ -81,15 +80,13 @@
 }
 
 
-/*  */
-
-/* Header.css */
+/* Header */
 .header-container {
   background-color: #333; /* Background color */
   color: #fff; /* Text color */
   padding: 20px;
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -151,7 +148,8 @@
   font-size: 16px;
 }
 .buttonDel {
-  position: relative;top: 3px;
+  position: relative;
+  top: 3px;
   background-color: transparent;
   color: black;
   border: none;
@@ -161,14 +159,13 @@
   font-size: 14px; /* Reduced font size */
 }
 
-
-.seeButton
-{
-  font-size:25px;
+.seeButton {
+  font-size: 25px;
   align-items: center;
   border: none;
-   cursor:pointer;
-   color:white;
-   background-color:transparent;
-   position: relative;top: 5px;
+  cursor: pointer;
+  color: white;
+  background-color: transparent;
+  position: relative;
+  top: 5px;
 }

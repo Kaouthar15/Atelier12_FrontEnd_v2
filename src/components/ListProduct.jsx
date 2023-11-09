@@ -66,17 +66,16 @@ export default function ListProduct() {
     setPanier(updatedPanier.filter((item) => item !== null));
   };
 
-  
-  const seeArticle = () =>
-  {
+  const seeArticle = () => {
     setShowArticles(!showArticles);
-  }
+  };
   return (
     <div>
       <Header panier={article} seeArticle={seeArticle} />
-      { showArticles  && panier.map((e) => (
-        <ListPanier key={e.id} panier={e} c={e.count} delArticle={deleteA} />
-      ))}
+      {showArticles &&
+        panier.map((e) => (
+          <ListPanier key={e.id} panier={e} c={e.count} delArticle={deleteA} />
+        ))}
       <div className="ListProduct">
         <div className="selectCat">
           <select
