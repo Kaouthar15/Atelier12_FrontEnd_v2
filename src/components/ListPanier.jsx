@@ -1,8 +1,6 @@
 import React from "react";
 import "../App.css";
 import { AiOutlineDelete } from "react-icons/ai";
-// import Product from './Product' ;
-// import Header from './Header';
 export default function ListPanier({ panier, c, delArticle }) {
   return (
     <div className="Product1">

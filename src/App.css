@@ -33,6 +33,7 @@
   max-width: 300px;
 }
 
+/* ListProduct */
 .Product {
   text-align: center;
   padding: 20px;
@@ -83,6 +84,7 @@
 /* Header */
 .header-container {
   background-color: #333; 
+  color: #fff; 
   padding: 20px;
   display: flex;
   justify-content: space-between;
