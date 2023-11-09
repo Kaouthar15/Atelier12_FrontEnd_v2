@@ -82,8 +82,7 @@
 
 /* Header */
 .header-container {
-  background-color: #333; /* Background color */
-  color: #fff; /* Text color */
+  background-color: #333; 
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -156,7 +155,7 @@
   padding: 8px 12px;
   cursor: pointer;
   border-radius: 5px;
-  font-size: 14px; /* Reduced font size */
+  font-size: 14px; 
 }
 
 .seeButton {
