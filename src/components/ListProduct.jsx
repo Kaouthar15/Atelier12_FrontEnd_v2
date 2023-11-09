@@ -13,8 +13,6 @@ export default function ListProduct() {
   const [panier, setPanier] = useState([]);
   const [article, setArticle] = useState([]);
   const [showArticles, setShowArticles] = useState(false);
-  // const [totalCount, setTotalCount] = useState(0);
-  // const [totalPrice, setTotalPrice] = useState(0);
 
   useEffect(() => {
     const getCat = async () => {

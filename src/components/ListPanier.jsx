@@ -18,7 +18,7 @@ export default function ListPanier({ panier, c, delArticle }) {
           </h1>
         </ul>
         <ul>
-          <h5 className="productPrice1">Prix : {panier.price} </h5>
+          <h5 className="productPrice1">Prix : {panier.price} $ </h5>
         </ul>
         <ul>
           <button className="buttonDel" onClick={() => delArticle(panier)}>
