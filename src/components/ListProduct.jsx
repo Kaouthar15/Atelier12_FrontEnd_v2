@@ -19,7 +19,7 @@ export default function ListProduct() {
       const res = await axios.get("https://api.escuelajs.co/api/v1/categories");
       return res.data;
     };
-
+ 
     getCat().then((e) => setCategories(e), setCategorie(0));
   }, []);
 
@@ -48,7 +48,8 @@ export default function ListProduct() {
     } else {
       setPanier([...panier, { ...e, count: 1 }]);
     }
-  };
+
+  }; 
 
   const deleteA = (e) => {
     const updatedPanier = panier.map((item) => {
@@ -58,7 +59,7 @@ export default function ListProduct() {
         } else {
           return null;
         }
-      }
+      } 
       return item;
     });
     setPanier(updatedPanier.filter((item) => item !== null));
@@ -91,7 +92,7 @@ export default function ListProduct() {
         </div>
         <div className="productList">
           {products.map((e) => (
-            <div className="productItem" key={e.id}>
+            <div className="productItem" key={e.id}> 
               <Product prod={e} handleClick={addPanier} />
             </div>
           ))}
